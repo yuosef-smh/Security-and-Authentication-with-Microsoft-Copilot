@@ -62,4 +62,4 @@ Resolved dependency errors by correcting project references and NuGet package ve
 This cycle of test → debug → copilot revision → retest ensured robust security and clean code.
 
 ## Test Results
-![Screenshot](https://github.com/yuosef-smh/Security-and-Authentication-with-Microsoft-Copilot/blob/main/Test%20Result.png)
+![Screenshot](https://github.com/user-attachments/assets/61774e47-7180-4d19-b022-8dc35d3a9fdd)
