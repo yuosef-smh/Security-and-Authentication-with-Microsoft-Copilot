@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+<form method="post" asp-action="Login">
+    <label>Username:</label>
+    <input type="text" name="username" required />
+    <br/>
+    <label>Password:</label>
+    <input type="password" name="password" required />
+    <br/>
+    <button type="submit">Login</button>
+</form>
+
+<ul>
+    @foreach (var err in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+    {
+        <li>@err.ErrorMessage</li>
+    }
+</ul>
